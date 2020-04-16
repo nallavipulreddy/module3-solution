@@ -4,7 +4,7 @@ body
 }
 .navbar
 {
-background-color: beige;
+background-color: yellow;
 }
 .navbar .navbar-brand
 {
@@ -35,8 +35,13 @@ background-color: gray;
 
 .menu-item .menu-item-title
 {
-	margin-top: 10px;
+	margin-top: 5px;
 	text-align: center;
+}
+
+.menu-item:hover
+{
+box-shadow: 5px 5px 2px 0px black;
 }
 
 /*  Large devices */
