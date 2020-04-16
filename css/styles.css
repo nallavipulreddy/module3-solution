@@ -1,10 +1,14 @@
+*
+{
+	box-sizing: border-box;
+}
 body
 {
 	background-color: white;
 }
 .navbar
 {
-background-color: yellow;
+background-color: beige;
 }
 .navbar .navbar-brand
 {
@@ -21,10 +25,12 @@ background-color: yellow;
 .menu-title
 {
 	text-transform: capitalize;
-	text-align: center;
 	margin-bottom: 30px;
 }
-
+.nav .navbar-nav
+{
+	color: black;
+}
 .menu-item
 {
 padding:10px;
@@ -35,7 +41,7 @@ background-color: gray;
 
 .menu-item .menu-item-title
 {
-	margin-top: 5px;
+	margin-top: 10px;
 	text-align: center;
 }
 
