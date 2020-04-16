@@ -1,0 +1,18 @@
+body
+{
+	background-color: gray;
+}
+.navbar
+{
+background-color: beige;
+}
+.navbar .navbar-brand
+{
+	font-size:1.8em;
+	color: red;
+}
+.navbar-collapse
+{
+	text-align: center;
+	font-size:1.2em;
+}
